@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil's-Portfolio</title>
+    <link rel="stylesheet" href=" style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d120c927c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Nikhil's Portfolio</div>
+            <div id="right">
+                <ul>
+                    <li><a href="#right">Home </a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                HI My Name Is <span class="purple"> Nikhil</span>
+
+                <div> and I am passionate</div>
+                <span id="element"></span><br>
+                
+            </div>
+            <div class="rightSection">
+                <img src="Dev.png" alt="devpng">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' Ui Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!------------------------------------------------------about---------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bg img 5.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit.
+                        Atque molestiae dolorem dolore amet totam tempora laudantium vero enim minima, iusto et
+                        asperiores vel? Est aperiam sit molestiae iure quis vitae!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App intefaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>02/2023 - 06/2023 </span><br>Internship at Empirical System</li>
+                            <li><span>Web Development</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>MCA at KCES'S Institute of Management & Research NMU University
+                            </li>
+                            <li><span>2020</span><br> BCS at SPPU University Pune</li>
+                            <li><span>2016</span><br>HSC Maharshtra Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------services------------------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Desing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia nemo soluta labore quia doloremque distinctio possimus! Libero repudiandae repellendus
+                        voluptate officiis, voluptatem itaque molestias voluptatum fuga natus,
+                        eius architecto sequi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2> UI Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia nemo soluta labore quia doloremque distinctio possimus! Libero repudiandae repellendus
+                        voluptate officiis, voluptatem itaque molestias voluptatum fuga natus,
+                        eius architecto sequi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Desing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia nemo soluta labore quia doloremque distinctio possimus! Libero repudiandae repellendus
+                        voluptate officiis, voluptatem itaque molestias voluptatum fuga natus,
+                        eius architecto sequi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------Portfolio--------------------------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3> Create Websites </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolore hic sapiente aliquid optio sed placeat exercitationem libero! Tempora explicabo
+                            impedit soluta doloribus earum! </p>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3> Create Websites </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolore hic sapiente aliquid optio sed placeat exercitationem libero! Tempora explicabo
+                            impedit soluta doloribus earum! </p>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3> Create Websites </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolore hic sapiente aliquid optio sed placeat exercitationem libero! Tempora explicabo
+                            impedit soluta doloribus earum! </p>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+            </div>
+            <a  class="btn"  href="#"> See more</a>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------contact---------------------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>1211324341</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=" "><i class="fa-brands fa-twitter"></i></a>
+                        <a href=" "><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right1">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ Nikhil. made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby53KSDanxvZ2ZroufA3-36dEnlAm0fb7FV6gwYMkOhHnRnEx9HYidJ_ugfInqLSgi7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
